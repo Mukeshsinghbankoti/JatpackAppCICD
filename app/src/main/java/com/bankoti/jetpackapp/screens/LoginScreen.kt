@@ -63,7 +63,7 @@ fun LoginScreen() {
                 )
 
             Spacer(modifier = Modifier.height(20.dp))
-            DividerTextComponent();
+            DividerTextComponent()
             Spacer(modifier = Modifier.height(10.dp))
             ClickableLoginTextComponent(tryingToLogin = false, onTextSelected = {
 

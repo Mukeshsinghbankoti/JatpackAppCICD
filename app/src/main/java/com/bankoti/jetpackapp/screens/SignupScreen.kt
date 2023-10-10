@@ -77,7 +77,7 @@ fun SignupScreen(){
             )
 
             Spacer(modifier = Modifier.height(20.dp))
-            DividerTextComponent();
+            DividerTextComponent()
             Spacer(modifier = Modifier.height(10.dp))
             ClickableLoginTextComponent(tryingToLogin = true, onTextSelected = {
                 PostOfficeAppRouter.navigateTo(com.bankoti.jetpackapp.navigation.Screen.LoginScreen)

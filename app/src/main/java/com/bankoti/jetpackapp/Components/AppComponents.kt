@@ -438,7 +438,7 @@ fun  NavigationDrawerBody(itemDrawerBody:List<NavigationItem>){
     LazyColumn(modifier = Modifier.fillMaxWidth()){
 
         items(itemDrawerBody){
-            NavigationitemRow(item=it);
+            NavigationitemRow(item=it)
         }
 
 

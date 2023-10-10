@@ -71,7 +71,7 @@ fun HomeScreen(){
 
             ModalDrawerSheet {
 
-                NavigationDrawerHeader();
+                NavigationDrawerHeader()
                 Spacer(Modifier.height(12.dp))
                 items.forEach { item ->
                     NavigationDrawerItem(
