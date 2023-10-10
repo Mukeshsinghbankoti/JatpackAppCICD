@@ -33,7 +33,6 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.material3.rememberDrawerState
-
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -41,10 +40,8 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-
 import com.bankoti.jetpackapp.Components.NavigationDrawerHeader
 import com.bankoti.jetpackapp.data.NavigationItem
-
 import kotlinx.coroutines.launch
 @SuppressLint("RememberReturnType")
 @OptIn(ExperimentalMaterial3Api::class)
