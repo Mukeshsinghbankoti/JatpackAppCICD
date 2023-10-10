@@ -46,8 +46,6 @@ import com.bankoti.jetpackapp.Components.NavigationDrawerHeader
 import com.bankoti.jetpackapp.data.NavigationItem
 
 import kotlinx.coroutines.launch
-
-
 @SuppressLint("RememberReturnType")
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
